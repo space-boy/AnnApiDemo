@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center|top"
+        />
+
+    <TextView
+        android:id="@+id/alt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/score_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="@string/score"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/episodes_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/episodes"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/anime_main_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/genres_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genres"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/themes_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/themes"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/anime_link_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/series_info_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
